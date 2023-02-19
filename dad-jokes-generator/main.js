@@ -3,12 +3,12 @@
 const btnEl = document.getElementById('btn');
 const jokeEl = document.getElementById('joke');
 
-const apiKey = ''
+const apiKey = 'API_KEY'
 
 const options = {
     method: 'GET',
     headers: {
-        'X-Api-Key': 'API'
+        'X-Api-Key': apiKey
     }
 }
 
